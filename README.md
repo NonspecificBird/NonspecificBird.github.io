@@ -1,2 +1,2 @@
 # NonspecificBird.github.io
-Personal website
+Personal website, i'm very new to this.
