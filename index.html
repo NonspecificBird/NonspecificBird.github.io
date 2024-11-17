@@ -1,35 +1,77 @@
 <!DOCTYPE html> 
 
-
-
 <html>
 
 <head>
 <title>Keasti's Test Site</title>
+<link rel="stylesheet" href="Resources/CSS/styles.css" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 </head>
 
   <body>
-    <h1>Keasti's Test Site</h1>
+    <div id="section-1">
+      <h1>Keasti's Test Site</h1>
+      <br><br>
+      <h2>How does this look?</h2>
+      <p>If all goes right, this should be a very bare bones start to a personal website. Hoping  everything is in place, i'm still learning how all this HTML stuff works. Assuming i've done this all correctly, this paragraph should be four lines long, and not one stretched line across the screen</p>
+    </div>
     <br>
-    <h2>How does this look?</h2>
-      <p>If all goes right, this should be a very bare bones start to a personal website. Hoping <br> everything is in place, i'm still learning how all this HTML stuff works. Assuming i've <br>done this all correctly, this paragraph should be four lines long, and not one stretched line<br> across the screen</p>
+    <div id="section-2">
+      <h2>Learning HTML & CSS!</h2>
+      <h4>How It's Going</h4>
+      <p>Now that i'm on Adderall i can finally focus and be productive! I've spent the last few weeks going through lessons on HTML & CSS, among other things. I've learned a lot and i'm really excited to start doing stuff with it all!!!</p>
+      <h4>Progress Update 1</h4>
+      <p>I've added divs to everything, the code is much less confusing now. Also changed this and the previous h3 to h2 for better readability.</p>
+    </div>
     <br>
-    
-    <h2>Learning HTML & CSS!</h2>
-    <p>Now that i'm on Adderall i can finally focus and be productive! I've spent the last few weeks <br>going through lessons on HTML & CSS, among other things. I've learned a lot and i'm really <br>excited to start doing stuff with it all!!!</p>
+    <div id="section-3">
+      <h2>Still Figuring Out GitHub</h2>
+      <p>Still figuring out how GitHub and Pages work, it's all a bit confusing for me. Hoping posting this site will help me get a better understanding of things. </p>
+      </div>
+    <br>
+    <div id="section-4">
+      <h2>I've learned flexbox</h2>
+      <p>I've learned the basics of flexbox and i mostly get it. I'm going to set this paragraph to fit within a width of 750 pixels and see how that goes. If i'm understanding this all correctly, it should keep this text in the same(ish) border of the previous paragraphs, just without me having to use line breaks. Lets see how it goes! Also have a test links section at the bottom using inline-block which is ugly as hell but a start at least. *edit* 750 was a bit too wide, let's try 600px. *edit 2* Looks good! Time to do add that rule to the rest of them. *edit 3* Adjusting it all to 800px so the links area looks good as well. </p>
+    </div>
+    <br>
+    <div id="section-5" class="garamond">
+      <h2>Typography</h2>
+      <p>I'm currently testing out how typography works (is that how you say that?). I've chosen Garamond since i think it looks more readable than the others i looked at. I've added the rules to the head section and the style sheet. If it all works, this should be a different font than the rest of this page.  *edit* Went with a weight of 500, looks good.</p>
+    </div>
     <br>
 
-    <h2>Still Figuring Out GitHub</h2>
-    <p>Still figuring out how GitHub and Pages work, it's all a bit confusing for me. Hoping posting <br>this site will help me get a better understanding of things. </p>
-    <br>
+
+    <!--Old Links Section
+    <div id="links">
     <h2>Links</h2>
-    <ul>
-      <li><a href="https://bsky.app/profile/keasti.gay" target="_blank">Bluesky</a> </li>
-      <li><a href="https://bark.lgbt/@keasti" target="_blank">Mastodon</a></li>
-      <li><a href="https://www.tumblr.com/nonspecific-bird" target="_blank">Tumblr</a></li>
-      <li><a href="https://cohost.org/NonspecificBird" target="_blank">Cohost (RIP)</a></li>
-      <li><a href="https://x.com/NonspecificBird" target="_blank">Twitter (inactive)</a></li>
-    </ul>
+      <ul>
+        <li><a href="https://bsky.app/profile/keasti.gay" target="_blank">Bluesky</a> </li>
+        <li><a href="https://bark.lgbt/@keasti" target="_blank">Mastodon</a></li>
+        <li><a href="https://www.tumblr.com/nonspecific-bird" target="_blank">Tumblr</a></li>
+        <li><a href="https://cohost.org/NonspecificBird" target="_blank">Cohost (RIP)</a></li>
+        <li><a href="https://x.com/NonspecificBird" target="_blank">Twitter (inactive)</a></li>
+      </ul>
+    </div>
+     -->
+
+
+    <!--Testing out how flexbox works-->
+    <div id="linksTest">
+      <h2>Links Testing</h2>
+      <ul>
+        <li><a href="https://bsky.app/profile/keasti.gay" target="_blank">Bluesky</a> </li>
+        <li><a href="https://bark.lgbt/@keasti" target="_blank">Mastodon</a></li>
+        <li><a href="https://www.tumblr.com/nonspecific-bird" target="_blank">Tumblr</a></li>
+        <li><a href="https://cohost.org/NonspecificBird" target="_blank">Cohost (RIP)</a></li>
+        <li><a href="https://x.com/NonspecificBird" target="_blank">Twitter (Dead)</a></li>
+      </ul>
+    </div>
 
   </body>
+
+  <footer>
+    <a href="#section-1">Back to top</a>
+  </footer>
 </html>

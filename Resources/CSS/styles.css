@@ -1,0 +1,31 @@
+h1, h2, h3, h4, h5, h6, p {
+    width: 800px;
+}
+
+#linksTest h2 {
+    color: blue;
+    background-color: rgb(247, 161, 3, 0.8);
+    width: 800px;
+}
+
+#linksTest li {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: rgb(32, 178, 170, 0.5);
+    font-weight: bold;
+    width: 140px;
+    text-align: center;
+}
+
+p{
+    width: 800px;
+}
+
+.garamond {
+    font-family: "EB Garamond", serif;
+    font-weight: 500;
+  }
+  
+  h2 {
+    background-color: rgba(81, 136, 175, 0.8);
+  }
